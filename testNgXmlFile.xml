@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="LilyMaasProject-Suit" >
+   <test name="LilyMaas-Test" >
+       <classes> 
+          <class name="lc.LilyCargo.TestFilesUPF.LoginTest_1" />
+          <class name="lc.LilyCargo.TestFilesUPF.LoginTest_2" />
+       </classes>
+   </test>
+ </suite>
