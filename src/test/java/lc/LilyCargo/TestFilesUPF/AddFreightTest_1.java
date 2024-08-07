@@ -32,7 +32,7 @@ public class AddFreightTest_1 {
                 
         loginPage.login(validUsername, validPassword);
         
-        log.info("Entered Valid Username and Password.");
+        log.info("Entered InValid Username and Password.");
         
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[text()='Create Freight']")));
