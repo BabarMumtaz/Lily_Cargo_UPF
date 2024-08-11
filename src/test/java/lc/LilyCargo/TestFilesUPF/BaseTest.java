@@ -86,7 +86,7 @@ public class BaseTest {
 		    private void loadConfigProperties() {
 		    try {
 		        Properties config = new Properties();
-		        FileInputStream fis = new FileInputStream("C:\\Users\\123\\eclipse-workspace\\LilyCargoUPF\\Config File\\configFile.properties");
+		        FileInputStream fis = new FileInputStream("E:\\New folder (2)5454\\LilyCargoPF\\Config File\\configFile.properties");
 		        config.load(fis);
 		        
 				/*
