@@ -8,6 +8,7 @@ import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -39,6 +40,7 @@ public class AddFreightTest_1 extends BaseTest {
      // Add an explicit wait for a specific element after login
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("logout")));
 		
-        bookedFreights.clickLogout();     
+        bookedFreights.clickLogout();
+        Reporter.log("Clicked Logout button", true);
 	}
 }

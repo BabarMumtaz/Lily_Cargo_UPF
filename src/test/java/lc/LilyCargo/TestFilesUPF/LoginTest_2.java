@@ -40,7 +40,7 @@ public class LoginTest_2 extends BaseTest {
 		        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("logout")));
 				
 				bookedFreights.clickLogout();
-
+				Reporter.log("Clicked Logout button", true);
 			} 
 			
 			else {
